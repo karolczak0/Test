@@ -1,0 +1,207 @@
+[ROOT] 
+      [DIR] .settings
+      [DIR] bin
+            [DIR] .ccfxprepdir
+                  [DIR] kao
+                        [DIR] monkey
+                              [DIR] explorer
+                              [DIR] expressions
+                                    [DIR] tree
+                                    [DIR] xml
+                              [DIR] gui
+                              [DIR] utils
+            [DIR] kao
+                  [DIR] monkey
+                        [DIR] explorer
+                        [DIR] expressions
+                              [DIR] tree
+                              [DIR] xml
+                        [DIR] gui
+                        [DIR] utils
+      [DIR] diagrams
+      [DIR] doc
+            [DIR] index-files
+            [DIR] kao
+                  [DIR] monkey
+                        [DIR] explorer
+                              [DIR] class-use
+                        [DIR] expressions
+                              [DIR] class-use
+                              [DIR] tree
+                                    [DIR] class-use
+                              [DIR] xml
+                                    [DIR] class-use
+            [DIR] resources
+      [DIR] New Folder
+      [DIR] src
+            [DIR] .ccfxprepdir
+                  [DIR] kao
+                        [DIR] monkey
+                              [DIR] explorer
+                              [DIR] expressions
+                                    [DIR] tree
+                                    [DIR] xml
+                              [DIR] gui
+                              [DIR] utils
+            [DIR] kao
+                  [DIR] monkey
+                        [FILE] CodeMonkey.java
+                              [package] package kao.monkey;
+                                    [import] import java.io.File;
+                                    [import] import kao.monkey.explorer.ExplorerEvent;
+                                    [import] import kao.monkey.explorer.ExplorerFinishEvent;
+                                    [import] import kao.monkey.explorer.ExplorerFinishListener;
+                                    [import] import kao.monkey.explorer.ExplorerListener;
+                                    [import] import kao.monkey.explorer.ExpressionExplorerListener;
+                                    [import] import kao.monkey.explorer.FilesExplorer;
+                                    [import] import kao.monkey.explorer.ForwardDeclarationFixer;
+                                    [import] import org.kohsuke.args4j.CmdLineException;
+                                    [import] import org.kohsuke.args4j.CmdLineParser;
+                                    [import] import org.kohsuke.args4j.Option;
+                                    [class] public class CodeMonkey implements ExplorerListener, ExplorerFinishListener {
+                        [DIR] explorer
+                              [FILE] ExplorerEvent.java
+                                    [package] package kao.monkey.explorer;
+                                          [import] import java.io.File;
+                                          [import] import java.util.EventObject;
+                                          [class] public class ExplorerEvent extends EventObject {
+                              [FILE] ExplorerFinishEvent.java
+                                    [package] package kao.monkey.explorer;
+                                          [import] import java.io.File;
+                                          [import] import java.util.EventObject;
+                                          [class] public class ExplorerFinishEvent extends EventObject {
+                              [FILE] ExplorerFinishListener.java
+                                    [package] package kao.monkey.explorer;
+                                          [import] import java.util.EventListener;
+                                          [interface] public interface ExplorerFinishListener extends EventListener {
+                              [FILE] ExplorerListener.java
+                                    [package] package kao.monkey.explorer;
+                                          [import] import java.util.EventListener;
+                                          [interface] public interface ExplorerListener extends EventListener {
+                              [FILE] ExpressionExplorerListener.java
+                                    [package] package kao.monkey.explorer;
+                                          [import] import java.io.File;
+                                          [import] import java.io.FileNotFoundException;
+                                          [import] import java.io.PrintWriter;
+                                          [import] import java.util.List;
+                                          [import] import java.util.Stack;
+                                          [import] import kao.monkey.expressions.Expression;
+                                          [import] import kao.monkey.expressions.ExpressionDefinition;
+                                          [import] import kao.monkey.expressions.ExpressionTree;
+                                          [import] import kao.monkey.expressions.tree.ILeaf;
+                                          [import] import kao.monkey.expressions.xml.XMLExpressionDefinitionReader;
+                                          [class] public class ExpressionExplorerListener extends LineReadedExplorerListener implements ExplorerFinishListener {
+                              [FILE] FilesExplorer.java
+                                    [package] package kao.monkey.explorer;
+                                          [import] import java.io.File;
+                                          [import] import java.util.ArrayList;
+                                          [import] import java.util.List;
+                                          [class] public class FilesExplorer {
+                              [FILE] ForwardDeclarationFixer.java
+                                    [package] package kao.monkey.explorer;
+                                          [import] import java.io.File;
+                                          [import] import java.io.IOException;
+                                          [import] import java.io.PrintWriter;
+                                          [import] import java.io.RandomAccessFile;
+                                          [import] import java.util.ArrayList;
+                                          [import] import java.util.Collections;
+                                          [import] import java.util.List;
+                                          [import] import kao.monkey.expressions.Expression;
+                                          [import] import kao.monkey.expressions.ExpressionDefinition;
+                                          [import] import kao.monkey.utils.Constants;
+                                          [class] public class ForwardDeclarationFixer extends ExpressionExplorerListener {
+                              [FILE] LineReadedExplorerListener.java
+                                    [package] package kao.monkey.explorer;
+                                          [import] import java.io.BufferedReader;
+                                          [import] import java.io.File;
+                                          [import] import java.io.FileReader;
+                                          [import] import java.io.IOException;
+                                          [class] public abstract class LineReadedExplorerListener implements ExplorerListener {
+                        [DIR] expressions
+                              [FILE] Expression.java
+                                    [package] package kao.monkey.expressions;
+                                          [import] import java.util.ArrayList;
+                                          [import] import java.util.Comparator;
+                                          [import] import java.util.List;
+                                          [import] import kao.monkey.expressions.tree.ILeaf;
+                                          [class] public class Expression implements IExpression, ILeaf{
+                                          [class] public static class ExpressionComparator implements Comparator<Expression>{
+                              [FILE] ExpressionDefinition.java
+                                    [package] package kao.monkey.expressions;
+                                          [class] public class ExpressionDefinition{
+                              [FILE] ExpressionTree.java
+                                    [package] package kao.monkey.expressions;
+                                          [import] import java.util.ArrayList;
+                                          [import] import java.util.List;
+                                          [import] import kao.monkey.expressions.tree.Tree;
+                                          [class] public class ExpressionTree extends Tree<Expression> {
+                              [FILE] IExpression.java
+                                    [package] package kao.monkey.expressions;
+                                          [interface] public interface IExpression {
+                              [DIR] tree
+                                    [FILE] ILeaf.java
+                                          [package] package kao.monkey.expressions.tree;
+                                                [import] import java.util.List;
+                                                [interface] public interface ILeaf {
+                                    [FILE] Tree.java
+                                          [package] package kao.monkey.expressions.tree;
+                                                [import] import kao.monkey.utils.Constants;
+                                                [class] public class Tree<LeafType extends ILeaf> {
+                              [DIR] xml
+                                    [FILE] XMLExpressionDefinitionReader.java
+                                          [package] package kao.monkey.expressions.xml;
+                                                [import] import java.io.File;
+                                                [import] import java.util.ArrayList;
+                                                [import] import java.util.List;
+                                                [import] import javax.xml.parsers.DocumentBuilder;
+                                                [import] import javax.xml.parsers.DocumentBuilderFactory;
+                                                [import] import org.w3c.dom.Document;
+                                                [import] import org.w3c.dom.Element;
+                                                [import] import org.w3c.dom.Node;
+                                                [import] import org.w3c.dom.NodeList;
+                                                [import] import kao.monkey.explorer.FilesExplorer;
+                                                [import] import kao.monkey.expressions.*;
+                                                [class] public class XMLExpressionDefinitionReader {
+                        [DIR] gui
+                              [FILE] DirFilter.java
+                                    [package] package kao.monkey.gui;
+                                          [import] import java.io.File;
+                                          [import] import javax.swing.filechooser.FileFilter;
+                                          [class] class DirFilter extends FileFilter {
+                              [FILE] JDirChooser.java
+                                    [package] package kao.monkey.gui;
+                                          [import] import java.io.File;
+                                          [import] import javax.swing.JFileChooser;
+                                          [class] public class JDirChooser extends JFileChooser {
+                              [FILE] MainWindow.java
+                                    [package] package kao.monkey.gui;
+                                          [import] import java.awt.EventQueue;
+                                          [import] import java.io.File;
+                                          [import] import javax.swing.JFileChooser;
+                                          [import] import javax.swing.JFrame;
+                                          [import] import javax.swing.JLabel;
+                                          [import] import javax.swing.JOptionPane;
+                                          [import] import javax.swing.JTextField;
+                                          [import] import javax.swing.JButton;
+                                          [import] import javax.swing.JComboBox;
+                                          [import] import javax.swing.UIManager;
+                                          [import] import java.awt.event.ActionListener;
+                                          [import] import java.awt.event.ActionEvent;
+                                          [import] import kao.monkey.explorer.ExplorerEvent;
+                                          [import] import kao.monkey.explorer.ExplorerFinishEvent;
+                                          [import] import kao.monkey.explorer.ExplorerFinishListener;
+                                          [import] import kao.monkey.explorer.ExplorerListener;
+                                          [import] import kao.monkey.explorer.ForwardDeclarationFixer;
+                                          [import] import kao.monkey.explorer.FilesExplorer;
+                                          [import] import kao.monkey.explorer.ExpressionExplorerListener;
+                                          [import] import kao.monkey.expressions.xml.XMLExpressionDefinitionReader;
+                                          [import] import javax.swing.JTextArea;
+                                          [import] import java.awt.Font;
+                                          [import] import javax.swing.JScrollPane;
+                                          [import] import javax.swing.text.DefaultCaret;
+                                          [class] public class MainWindow implements ActionListener, ExplorerListener, ExplorerFinishListener {
+                        [DIR] utils
+                              [FILE] Constants.java
+                                    [package] package kao.monkey.utils;
+                                          [class] public final class Constants {
+

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<cpp_grammar>
+	<definition name="include" regex="\s*#include .*" /> 
+	<definition name="class" regex="[\s\w]*class .*" start_token="{" end_token = "}"/>
+	<!-- <definition name="method" regex="\s*(?&#60;expo&#62;public:|protected:|private:).*&#40;.*&#41;.*" />  -->
+	<definition name="namespace" regex="\s*namespace .*" start_token="{" end_token="}"/>
+	<!--<definition name="comment" regex=".*/\*.*" start_token="/*" end_token="*/"/> -->
+	<!--<definition name="comment" regex=".*//.*" /> -->
+	<definition name="template" regex="[^,]*&#60;[^()-]*&#62;[\s\w&#38;]*[^|?](([^()]);|(=.*;))" /> 
+	<definition name="function" regex="[\w\s]+[\w\s]+\(.*\).*"  start_token="{" end_token = "}"/> 
+</cpp_grammar>

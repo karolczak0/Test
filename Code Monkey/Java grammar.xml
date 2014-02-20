@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<java_grammar>
+	<definition name="package" regex="\s*package .*" start_token=";" end_token = "\u001a"/>
+	<definition name="import" regex="\s*import .*;" /> 
+	<definition name="class" regex="[\w\s]*class .*" start_token="{" end_token = "}"/>
+	<definition name="interface" regex="[\w\s]*interface .*" start_token="{" end_token = "}"/>
+	<definition name="enum" regex="[\w\s]*enum .*" start_token="{" end_token = "}"/>
+	<!-- <definition name="method" regex="\s*(?&#60;expo&#62;public:|protected:|private:).*&#40;.*&#41;.*" />  -->
+	<!--<definition name="comment" regex=".*/\*.*" start_token="/*" end_token="*/"/> -->
+	<!--<definition name="comment" regex=".*//.*" /> -->
+</java_grammar>

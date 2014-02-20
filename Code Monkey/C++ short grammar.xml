@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<cpp_grammar>
+	<definition name="INCLUDE" regex="\s*#include .*" /> 
+	<definition name="CLASS DEC" regex="[\s]*class [\w]*;.*" start_token="{" end_token = "}"/>
+	<definition name="STRUCT DEC" regex="[\s]*struct [\w]*;.*" start_token="{" end_token = "}"/>
+	<definition name="CLASS DEF" regex="[\s]*class [\w]*[\s]*((:.*)|(\{.*))" start_token="{" end_token = "}"/>
+	<definition name="STRUCT DEF" regex="[\s]*struct \w*[{| ]*$" start_token="{" end_token = "}"/>
+	<!-- <definition name="method" regex="\s*(?&#60;expo&#62;public:|protected:|private:).*&#40;.*&#41;.*" />  -->
+	<definition name="NAMESPACE" regex="\s*namespace .*" start_token="{" end_token="}"/>
+	<definition name="COMMENT" regex=".*/\*.*" start_token="/*" end_token="*/"/> 
+	<!--<definition name="comment" regex=".*//.*" /> -->
+	<!--<definition name="template" regex="[^,]*&#60;[^()-]*&#62;[\s\w&#38;]*[^|?](([^()]);|(=.*;))" /> -->
+	<!--<definition name="function" regex="[\w\s]+[\w\s]+\(.*\).*"  start_token="{" end_token = "}"/> -->
+</cpp_grammar>

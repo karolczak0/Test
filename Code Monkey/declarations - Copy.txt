@@ -1,0 +1,299 @@
+Found forward declarations: 295
+
+No      Class Name                          Declared at:                                                                         Defined at:
+--------------------------------------------------------------------------------------------------------------------------------------------
+#1	BLOBNBOX                             /ccmain/equationdetect.h
+#2	BLOBNBOX                             /ccmain/osdetect.h
+#3	BLOBNBOX                             /ccstruct/blobbox.h
+#4	BLOBNBOX                             /textord/tabfind.h
+#5	BLOBNBOX                             /textord/tabvector.h
+#6	BLOBNBOX_CLIST                       /ccmain/osdetect.h
+#7	BLOBNBOX_LIST                        /textord/baselinedetect.h
+#8	BLOBNBOX_LIST                        /textord/equationdetectbase.h
+#9	BLOBNBOX_LIST                        /textord/imagefind.h
+#10	BLOBNBOX_LIST                       /textord/linefind.h
+#11	BLOBNBOX_LIST                       /textord/tabfind.h
+#12	BLOB_CHOICE                         /ccmain/equationdetect.h
+#13	BLOB_CHOICE_IT                      /ccmain/ltrresultiterator.h
+#14	BLOB_CHOICE_IT                      /ccmain/mutableiterator.h
+#15	BLOB_CHOICE_IT                      /ccmain/resultiterator.h
+#16	BLOB_CHOICE_LIST                    /ccmain/equationdetect.h
+#17	BLOB_CHOICE_LIST                    /ccmain/osdetect.h
+#18	BLOB_CHOICE_LIST                    /ccstruct/matrix.h
+#19	BLOB_CHOICE_LIST_CLIST              /ccmain/tesseractclass.h
+#20	BLOCK                               /ccstruct/blobs.h
+#21	BLOCK                               /ccstruct/boxword.h
+#22	BLOCK                               /ccstruct/normalis.h
+#23	BLOCK                               /textord/bbgrid.h
+#24	BLOCK                               /ccstruct/ocrblock.h
+#25	BLOCK_LIST                          /api/baseapi.h
+#26	BLOCK_LIST                          /ccmain/tesseractclass.h
+#27	BLOCK_LIST                          /textord/colfind.h
+#28	BLOCK_LIST                          /textord/textord.h
+#29	BLOCK_RES                           /ccstruct/pageres.h
+#30	BlamerBundle                        /api/baseapi.h
+#31	BlamerBundle                        /ccmain/pageiterator.h
+#32	BoolParam                           /ccutil/params.h                                                                     /ccutil/params.h
+#33	CCUtil                              /image/image.cpp                                                                     /ccutil/ccutil.h
+#34	CCUtil                              /image/image.h                                                                       /ccutil/ccutil.h
+#35	CLIST_ITERATOR                      /ccutil/clst.h
+#36	C_BLOB                              /ccstruct/blobs.h
+#37	C_BLOB                              /ccstruct/stepblob.h
+#38	C_BLOB_IT                           /ccmain/pageiterator.h
+#39	C_BLOB_LIST                         /textord/linefind.h
+#40	C_OUTLINE                           /ccstruct/blobs.h
+#41	C_OUTLINE_IT                        /textord/scanedg.h
+#42	CharSamp                            /ccmain/tesseractclass.h                                                             /cube/char_samp.h
+#43	Classify                            /ccmain/cubeclassifier.h                                                             /classify/classify.h
+#44	Classify                            /classify/tessclassifier.h                                                           /classify/classify.h
+#45	Classify                            /training/commontraining.h                                                           /classify/classify.h
+#46	ColPartition                        /ccmain/equationdetect.h                                                             /textord/colpartition.h
+#47	ColPartition                        /ccstruct/blobbox.h                                                                  /textord/colpartition.h
+#48	ColPartition                        /textord/colpartition.h                                                              /textord/colpartition.h
+#49	ColPartition                        /textord/textlineprojection.h                                                        /textord/colpartition.h
+#50	ColPartitionGrid                    /ccmain/equationdetect.h                                                             /textord/colpartitiongrid.h
+#51	ColPartitionGrid                    /textord/colpartition.h                                                              /textord/colpartitiongrid.h
+#52	ColPartitionGrid                    /textord/equationdetectbase.h                                                        /textord/colpartitiongrid.h
+#53	ColPartitionGrid                    /textord/imagefind.h                                                                 /textord/colpartitiongrid.h
+#54	ColPartitionGrid                    /textord/tabfind.h                                                                   /textord/colpartitiongrid.h
+#55	ColPartitionSet                     /ccmain/equationdetect.h                                                             /textord/colpartitionset.h
+#56	ColPartitionSet                     /textord/colfind.h                                                                   /textord/colpartitionset.h
+#57	ColPartitionSet                     /textord/colpartition.h                                                              /textord/colpartitionset.h
+#58	ColPartitionSet                     /textord/colpartitionset.h                                                           /textord/colpartitionset.h
+#59	ColPartitionSet                     /textord/equationdetectbase.h                                                        /textord/colpartitionset.h
+#60	ColPartitionSet                     /textord/tablefind.h                                                                 /textord/colpartitionset.h
+#61	ColPartitionSet_LIST                /textord/colfind.h
+#62	ColPartition_LIST                   /textord/imagefind.h
+#63	ColPartition_LIST                   /textord/strokewidth.h
+#64	ColSegment                          /textord/tablefind.h                                                                 /textord/tablefind.h
+#65	ColSegment_LIST                     /textord/colfind.h
+#66	ColSegment_LIST                     /textord/colpartitionset.h
+#67	ColumnFinder                        /ccmain/tesseractclass.h                                                             /textord/colfind.h
+#68	ColumnGroup_LIST                    /textord/colfind.h
+#69	CubeLineObject                      /ccmain/tesseractclass.h                                                             /cube/cube_line_object.h
+#70	CubeObject                          /ccmain/tesseractclass.h                                                             /cube/cube_object.h
+#71	CubeObject                          /ccmain/tesseract_cube_combiner.h                                                    /cube/cube_object.h
+#72	CubeRecoContext                     /api/baseapi.h                                                                       /ccmain/cube_reco_context.h
+#73	CubeRecoContext                     /ccmain/cubeclassifier.h                                                             /ccmain/cube_reco_context.h
+#74	CubeRecoContext                     /ccmain/tesseractclass.h                                                             /ccmain/cube_reco_context.h
+#75	CubeRecoContext                     /ccmain/tesseract_cube_combiner.h                                                    /ccmain/cube_reco_context.h
+#76	DENORM                              /api/baseapi.h                                                                       /ccstruct/normalis.h
+#77	DENORM                              /ccstruct/boxword.h                                                                  /ccstruct/normalis.h
+#78	DENORM                              /ccstruct/coutln.h                                                                   /ccstruct/normalis.h
+#79	DENORM                              /classify/extract.h                                                                  /ccstruct/normalis.h
+#80	DENORM                              /classify/intfx.h                                                                    /ccstruct/normalis.h
+#81	DENORM                              /classify/ocrfeatures.h                                                              /ccstruct/normalis.h
+#82	DENORM                              /textord/colfind.h                                                                   /ccstruct/normalis.h
+#83	DENORM                              /textord/strokewidth.h                                                               /ccstruct/normalis.h
+#84	DENORM                              /textord/textlineprojection.h                                                        /ccstruct/normalis.h
+#85	Dawg                                /api/baseapi.h                                                                       /dict/dawg.h
+#86	Dict                                /api/baseapi.h                                                                       /dict/dict.h
+#87	DoubleParam                         /ccutil/params.h                                                                     /ccutil/params.h
+#88	EDGEPT                              /ccstruct/vecfuncs.h
+#89	ELIST2_ITERATOR                     /ccutil/elst2.h
+#90	ELIST_ITERATOR                      /ccutil/elst.h
+#91	ETEXT_DESC                          /api/baseapi.h                                                                       /ccutil/ocrclass.h
+#92	EquationDetect                      /api/baseapi.h                                                                       /ccmain/equationdetect.h
+#93	EquationDetect                      /ccmain/tesseractclass.h                                                             /ccmain/equationdetect.h
+#94	EquationDetectBase                  /textord/colfind.h                                                                   /textord/equationdetectbase.h
+#95	FCOORD                              /ccstruct/normalis.h
+#96	FCOORD                              /ccstruct/points.h
+#97	FCOORD                              /classify/intproto.h
+#98	FCOORD                              /textord/imagefind.h
+#99	FCOORD                              /textord/textord.h
+#100	FPSEGPT_LIST                       /textord/pithsync.h
+#101	FPSEGPT_LIST                       /textord/pitsync1.h
+#102	FontInfoTable                      /classify/errorcounter.h                                                             /ccstruct/fontinfo.h
+#103	FontInfoTable                      /classify/shapetable.h                                                               /ccstruct/fontinfo.h
+#104	FontInfoTable                      /classify/trainingsampleset.h                                                        /ccstruct/fontinfo.h
+#105	ICOORD                             /textord/linefind.h
+#106	IMAGE                              /api/baseapi.h
+#107	IMAGE                              /ccmain/tesseractclass.h
+#108	IMAGE                              /ccmain/thresholder.h
+#109	IMAGE                              /textord/devanagari_processing.h
+#110	Image                              /dict/dict.cpp                                                                       /image/image.h
+#111	IndexMap                           /classify/intfeaturespace.h                                                          /ccutil/indexmapbidi.h
+#112	IndexMapBiDi                       /ccutil/indexmapbidi.h                                                               /ccutil/indexmapbidi.h
+#113	IndexMapBiDi                       /classify/sampleiterator.h                                                           /ccutil/indexmapbidi.h
+#114	IntFeatureMap                      /classify/intfeaturedist.h                                                           /classify/intfeaturemap.h
+#115	IntFeatureMap                      /classify/sampleiterator.h                                                           /classify/intfeaturemap.h
+#116	IntFeatureMap                      /classify/trainingsample.h                                                           /classify/intfeaturemap.h
+#117	IntFeatureMap                      /classify/trainingsampleset.h                                                        /classify/intfeaturemap.h
+#118	IntFeatureSpace                    /classify/trainingsample.h                                                           /classify/intfeaturespace.h
+#119	IntFeatureSpace                    /classify/trainingsampleset.h                                                        /classify/intfeaturespace.h
+#120	IntParam                           /ccutil/params.h                                                                     /ccutil/params.h
+#121	LLSQ                               /ccstruct/blobs.h                                                                    /ccstruct/linlsq.h
+#122	LTRResultIterator                  /api/baseapi.h
+#123	LineSpacing                        /textord/colfind.h
+#124	MATRIX                             /api/baseapi.h                                                                       /ccstruct/matrix.h
+#125	MATRIX                             /ccstruct/ratngs.h                                                                   /ccstruct/matrix.h
+#126	MATRIX                             /dict/dict.h                                                                         /ccstruct/matrix.h
+#127	MasterTrainer                      /training/commontraining.h                                                           /classify/mastertrainer.h
+#128	MutableIterator                    /api/baseapi.h                                                                       /ccmain/mutableiterator.h
+#129	MutableIterator                    /ccmain/paragraphs.h                                                                 /ccmain/mutableiterator.h
+#130	NeuralNet                          /ccmain/tesseract_cube_combiner.h                                                    /neural_networks/runtime/neural_net.h
+#131	PAGE_RES                           /api/baseapi.h                                                                       /ccstruct/pageres.h
+#132	PAGE_RES                           /ccmain/pageiterator.h                                                               /ccstruct/pageres.h
+#133	PAGE_RES                           /ccmain/tesseractclass.h                                                             /ccstruct/pageres.h
+#134	PAGE_RES                           /textord/textord.h                                                                   /ccstruct/pageres.h
+#135	PAGE_RES_IT                        /api/baseapi.h                                                                       /ccstruct/pageres.h
+#136	PAGE_RES_IT                        /ccmain/pageiterator.h                                                               /ccstruct/pageres.h
+#137	PAGE_RES_IT                        /ccmain/tesseractclass.h                                                             /ccstruct/pageres.h
+#138	PARA                               /ccstruct/ocrrow.h
+#139	PBLOB_IT                           /ccmain/pageiterator.h
+#140	PBLOB_LIST                         /ccstruct/boxword.h
+#141	PageIterator                       /api/baseapi.h
+#142	ParagraphModel                     /api/baseapi.h                                                                       /ccstruct/ocrpara.h
+#143	ParagraphModel                     /ccstruct/ocrpara.h                                                                  /ccstruct/ocrpara.h
+#144	ParagraphTheory                    /ccmain/paragraphs_internal.h                                                        /ccmain/paragraphs_internal.h
+#145	Pix                                /ccstruct/quspline.h
+#146	Pix                                /textord/baselinedetect.h
+#147	ROW                                /api/baseapi.h
+#148	ROW                                /ccmain/tesseractclass.h
+#149	ROW                                /ccstruct/blobs.h
+#150	ROW                                /ccstruct/quspline.h
+#151	ROW                                /ccstruct/normalis.h
+#152	ROW                                /ccstruct/werd.h
+#153	ResultIterator                     /api/baseapi.h
+#154	STATS                              /textord/colfind.h                                                                   /ccstruct/statistc.h
+#155	STRING                             /api/baseapi.h
+#156	STRING                             /ccmain/resultiterator.h
+#157	STRING                             /ccstruct/boxread.h
+#158	STRING                             /classify/shapetable.h
+#159	SVMenuNode                         /ccmain/paramsd.h                                                                    /viewer/svmnode.h
+#160	SVMenuNode                         /ccmain/pgedit.h                                                                     /viewer/svmnode.h
+#161	SVMenuNode                         /ccmain/tesseractclass.h                                                             /viewer/svmnode.h
+#162	SVMutex                            /viewer/scrollview.h                                                                 /viewer/svutil.h
+#163	SVNetwork                          /viewer/scrollview.h                                                                 /viewer/svutil.h
+#164	SVSemaphore                        /viewer/scrollview.h                                                                 /viewer/svutil.h
+#165	SampleIterator                     /classify/errorcounter.h                                                             /classify/sampleiterator.h
+#166	SampleIterator                     /classify/intfeaturemap.h                                                            /classify/sampleiterator.h
+#167	ScrollView                         /ccmain/pgedit.h                                                                     /viewer/scrollview.h
+#168	ScrollView                         /classify/classify.h                                                                 /viewer/scrollview.h
+#169	ScrollView                         /classify/shapeclassifier.h                                                          /viewer/scrollview.h
+#170	ScrollView                         /cutil/callcpp.h                                                                     /viewer/scrollview.h
+#171	ScrollView                         /image/svshowim.h                                                                    /viewer/scrollview.h
+#172	ScrollView                         /textord/colfind.h                                                                   /viewer/scrollview.h
+#173	ScrollView                         /textord/strokewidth.h                                                               /viewer/scrollview.h
+#174	ScrollView                         /textord/tabfind.h                                                                   /viewer/scrollview.h
+#175	ScrollView                         /textord/tabvector.h                                                                 /viewer/scrollview.h
+#176	ScrollView                         /textord/textord.h                                                                   /viewer/scrollview.h
+#177	ScrollView                         /viewer/scrollview.h                                                                 /viewer/scrollview.h
+#178	ScrollView                         /viewer/svmnode.h                                                                    /viewer/scrollview.h
+#179	ShapeClassifier                    /classify/classify.h                                                                 /classify/shapeclassifier.h
+#180	ShapeClassifier                    /classify/errorcounter.h                                                             /classify/shapeclassifier.h
+#181	ShapeClassifier                    /classify/mastertrainer.h                                                            /classify/shapeclassifier.h
+#182	ShapeTable                         /ccmain/cubeclassifier.h                                                             /classify/shapetable.h
+#183	ShapeTable                         /classify/classify.h                                                                 /classify/shapetable.h
+#184	ShapeTable                         /classify/sampleiterator.h                                                           /classify/shapetable.h
+#185	ShapeTable                         /classify/shapeclassifier.h                                                          /classify/shapetable.h
+#186	ShapeTable                         /classify/shapetable.h                                                               /classify/shapetable.h
+#187	ShapeTable                         /classify/trainingsample.h                                                           /classify/shapetable.h
+#188	ShapeTable                         /training/commontraining.h                                                           /classify/shapetable.h
+#189	StringParam                        /ccutil/params.h                                                                     /ccutil/params.h
+#190	StrokeWidth                        /textord/colfind.h                                                                   /textord/strokewidth.h
+#191	TBLOB                              /ccstruct/normalis.h
+#192	TBLOB                              /ccstruct/ratngs.h
+#193	TBOX                               /api/baseapi.h
+#194	TBOX                               /ccmain/equationdetect.h
+#195	TBOX                               /ccmain/tesseractclass.h
+#196	TBOX                               /ccstruct/boxread.h
+#197	TBOX                               /ccstruct/normalis.h
+#198	TBOX                               /textord/devanagari_processing.h
+#199	TBOX                               /textord/imagefind.h
+#200	TO_BLOCK                           /textord/baselinedetect.h
+#201	TO_BLOCK                           /textord/colfind.h
+#202	TO_BLOCK                           /textord/equationdetectbase.h
+#203	TO_BLOCK                           /textord/imagefind.h
+#204	TO_BLOCK                           /textord/strokewidth.h
+#205	TO_BLOCK                           /textord/tabfind.h
+#206	TO_BLOCK                           /textord/textord.h
+#207	TO_BLOCK_LIST                      /ccmain/equationdetect.h
+#208	TO_BLOCK_LIST                      /ccmain/osdetect.h
+#209	TO_BLOCK_LIST                      /ccmain/tesseractclass.h
+#210	TO_BLOCK_LIST                      /textord/baselinedetect.h
+#211	TO_BLOCK_LIST                      /textord/textord.h
+#212	TO_ROW                             /ccstruct/ocrrow.h
+#213	TO_ROW                             /textord/baselinedetect.h
+#214	TPOINT                             /ccstruct/normalis.h
+#215	TWERD                              /ccstruct/ratngs.h
+#216	TabConstraint                      /textord/tabvector.h                                                                 /textord/tabvector.h
+#217	TabFind                            /textord/colpartitiongrid.h                                                          /textord/tabfind.h
+#218	TabFind                            /textord/imagefind.h                                                                 /textord/tabfind.h
+#219	TabFind                            /textord/strokewidth.h                                                               /textord/tabfind.h
+#220	TabFind                            /textord/tabvector.h                                                                 /textord/tabfind.h
+#221	TabVector                          /textord/tabvector.h                                                                 /textord/tabvector.h
+#222	TabVector_LIST                     /textord/linefind.h
+#223	TempColumn_LIST                    /textord/colfind.h
+#224	TessBaseAPI                        /api/renderer.h
+#225	TessClassifier                     /ccmain/cubeclassifier.h                                                             /classify/tessclassifier.h
+#226	TessResultRenderer                 /api/baseapi.h
+#227	TessdataManager                    /ccmain/cube_reco_context.h                                                          /ccutil/tessdatamanager.h
+#228	Tesseract                          /api/baseapi.h                                                                       /ccmain/tesseractclass.h
+#229	Tesseract                          /ccmain/cubeclassifier.h                                                             /ccmain/tesseractclass.h
+#230	Tesseract                          /ccmain/cube_reco_context.h                                                          /ccmain/tesseractclass.h
+#231	Tesseract                          /ccmain/equationdetect.h                                                             /ccmain/tesseractclass.h
+#232	Tesseract                          /ccmain/ltrresultiterator.h                                                          /ccmain/tesseractclass.h
+#233	Tesseract                          /ccmain/mutableiterator.h                                                            /ccmain/tesseractclass.h
+#234	Tesseract                          /ccmain/osdetect.h                                                                   /ccmain/tesseractclass.h
+#235	Tesseract                          /ccmain/pageiterator.h                                                               /ccmain/tesseractclass.h
+#236	Tesseract                          /ccmain/resultiterator.h                                                             /ccmain/tesseractclass.h
+#237	Tesseract                          /ccmain/tesseractclass.h                                                             /ccmain/tesseractclass.h
+#238	Tesseract                          /ccstruct/ccstruct.h                                                                 /ccmain/tesseractclass.h
+#239	Tesseract                          /ccstruct/pageres.h                                                                  /ccmain/tesseractclass.h
+#240	Tesseract                          /textord/topitch.h                                                                   /ccmain/tesseractclass.h
+#241	Tesseract                          /textord/tordmain.h                                                                  /ccmain/tesseractclass.h
+#242	Tesseract                          /textord/wordseg.h                                                                   /ccmain/tesseractclass.h
+#243	TesseractCubeCombiner              /ccmain/tesseractclass.h                                                             /ccmain/tesseract_cube_combiner.h
+#244	TextlineProjection                 /textord/strokewidth.h                                                               /textord/textlineprojection.h
+#245	Textord                            /textord/baselinedetect.h                                                            /textord/textord.h
+#246	TrainingSample                     /ccmain/cubeclassifier.h                                                             /classify/trainingsample.h
+#247	TrainingSample                     /classify/errorcounter.h                                                             /classify/trainingsample.h
+#248	TrainingSample                     /classify/intfx.h                                                                    /classify/trainingsample.h
+#249	TrainingSample                     /classify/sampleiterator.h                                                           /classify/trainingsample.h
+#250	TrainingSample                     /classify/shapeclassifier.h                                                          /classify/trainingsample.h
+#251	TrainingSample                     /classify/tessclassifier.h                                                           /classify/trainingsample.h
+#252	TrainingSample                     /classify/trainingsampleset.h                                                        /classify/trainingsample.h
+#253	TrainingSampleSet                  /classify/sampleiterator.h                                                           /classify/trainingsampleset.h
+#254	TrainingSampleSet                  /classify/shapeclassifier.h                                                          /classify/trainingsampleset.h
+#255	Trie                               /api/baseapi.h                                                                       /dict/trie.h
+#256	Trie                               /cube/word_list_lang_model.h                                                         /dict/trie.h
+#257	UNICHARSET                         /api/baseapi.h                                                                       /ccutil/unicharset.h
+#258	UNICHARSET                         /ccmain/equationdetect.h                                                             /ccutil/unicharset.h
+#259	UNICHARSET                         /ccmain/paragraphs.h                                                                 /ccutil/unicharset.h
+#260	UNICHARSET                         /ccstruct/boxword.h                                                                  /ccutil/unicharset.h
+#261	UNICHARSET                         /ccstruct/normalis.h                                                                 /ccutil/unicharset.h
+#262	UNICHARSET                         /classify/shapeclassifier.h                                                          /ccutil/unicharset.h
+#263	UNICHARSET                         /classify/shapetable.h                                                               /ccutil/unicharset.h
+#264	UNICHARSET                         /classify/trainingsampleset.h                                                        /ccutil/unicharset.h
+#265	UNICHARSET                         /dict/dawg.h                                                                         /ccutil/unicharset.h
+#266	UNICHARSET                         /dict/trie.h                                                                         /ccutil/unicharset.h
+#267	UnicharAndFonts                    /classify/sampleiterator.h
+#268	UnicharAndFonts                    /classify/trainingsampleset.h
+#269	UnicharRating                      /classify/errorcounter.h
+#270	WERD                               /api/baseapi.h                                                                       /ccstruct/werd.h
+#271	WERD                               /ccmain/pageiterator.h                                                               /ccstruct/werd.h
+#272	WERD                               /ccmain/paragraphs.h                                                                 /ccstruct/werd.h
+#273	WERD                               /ccmain/tesseractclass.h                                                             /ccstruct/werd.h
+#274	WERD                               /ccstruct/blobs.h                                                                    /ccstruct/werd.h
+#275	WERD                               /ccstruct/boxword.h                                                                  /ccstruct/werd.h
+#276	WERD_CHOICE                        /ccmain/paragraphs_internal.h                                                        /ccstruct/ratngs.h
+#277	WERD_CHOICE                        /ccmain/tesseractclass.h                                                             /ccstruct/ratngs.h
+#278	WERD_CHOICE                        /ccstruct/boxword.h                                                                  /ccstruct/ratngs.h
+#279	WERD_CHOICE                        /classify/classify.h                                                                 /ccstruct/ratngs.h
+#280	WERD_CHOICE                        /dict/stopper.h                                                                      /ccstruct/ratngs.h
+#281	WERD_CHOICE_LIST                   /api/baseapi.h
+#282	WERD_RES                           /ccmain/ltrresultiterator.h                                                          /ccstruct/pageres.h
+#283	WERD_RES                           /ccmain/resultiterator.h                                                             /ccstruct/pageres.h
+#284	WERD_RES                           /ccmain/tesseractclass.h                                                             /ccstruct/pageres.h
+#285	WERD_RES                           /ccstruct/boxword.h                                                                  /ccstruct/pageres.h
+#286	WERD_RES                           /ccstruct/pageres.h                                                                  /ccstruct/pageres.h
+#287	WERD_RES                           /classify/classify.h                                                                 /ccstruct/pageres.h
+#288	WERD_RES                           /dict/dict.h                                                                         /ccstruct/pageres.h
+#289	WERD_RES                           /wordrec/associate.h                                                                 /ccstruct/pageres.h
+#290	WERD_RES                           /wordrec/wordrec.h                                                                   /ccstruct/pageres.h
+#291	WordAltList                        /ccmain/tesseract_cube_combiner.h                                                    /cube/word_altlist.h
+#292	Wordrec                            /api/baseapi.h                                                                       /wordrec/wordrec.h
+#293	WorkingPartSet                     /textord/colpartition.h                                                              /textord/workingpartset.h
+#294	WorkingPartSet_LIST                /textord/colpartition.h
+#295	WorkingPartSet_LIST                /textord/colpartitionset.h
